@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
+    background-image: url(https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main#container {
+    border-color: blueviolet;
+    border: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.644);;
 }
 
 h1.titulo {
+    font-family: "Dancing Script", cursive;
 }
 
+
 p.frase {
+    font-family: "Playfair Display", serif;
+
 }
 
 p.autor {
+    font-family: "Playfair Display", serif;
 }
